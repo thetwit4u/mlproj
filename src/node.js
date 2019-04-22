@@ -577,7 +577,8 @@
             }
             while ( ++num < maxNum
                     && ((new Date() - start) < maxWait)
-                    && (ping.statusCode === 503
+                    && (ping.statusCode === 503 
+                        || ping.statusCode === 502
                         || ping.code === 'ECONNRESET'
                         || ping.code === 'ECONNREFUSED') );
             if ( ping.statusCode !== 200 ) {
