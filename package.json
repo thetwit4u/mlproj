@@ -15,7 +15,7 @@
   "dependencies": {
     "chalk": "^1.1.3",
     "chokidar": "^1.7.0",
-    "mlproj-core": "thetwit4u/mlproj-core#7d290a2388b107474469dbf76744bfb74b7a7dc9",
+    "mlproj-core": "thetwit4u/mlproj-core#f65200a45d94af942f64ed8093239e6e7d757f96",
     "readline-sync": "^1.4.6",
     "sync-request": "^4.1.0",
     "uuid": "^3.1.0",
